@@ -1,1 +1,28 @@
-/* Pon tu código css aqui */
+/* Pon tu código css aqui */	
+.caja1{
+	width: 25%;
+	height: 100px;
+	background-color: #a2dc1a;
+	float: left;
+}
+.caja2{
+	width: 25%;
+	height: 100px;
+	background-color: #dcd61a;
+	float: left;
+}
+.caja3{
+	width: 25%;
+	height: 100px;
+	background-color: #dc871a;
+	float: left;
+}
+
+.contenedor:after{
+	display: block;
+	clear:both;
+	content: "";
+}
+.contenedor{
+	border:1px solid black;
+}
